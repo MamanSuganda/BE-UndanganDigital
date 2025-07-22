@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title><%= title %></title>
+
+    <meta property="og:title" content="<%= title %>" />
+    <meta property="og:description" content="<%= description %>" />
+    <meta property="og:image" content="<%= imageUrl %>" />
+    <meta property="og:url" content="<%= publicUrl %>" />
+    <meta property="og:type" content="website" />
+
+    <script>
+      // Alihkan pengguna ke halaman frontend React sesungguhnya
+      window.location.replace("<%= frontendUrl %>");
+    </script>
+  </head>
+  <body>
+    <p>Membuka undangan, silakan tunggu...</p>
+    <p></p>
+  </body>
+</html>
